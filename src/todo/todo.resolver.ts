@@ -1,4 +1,4 @@
-import { Args, ID, Mutation, Query, Resolver } from '@nestjs/graphql';
+import { Args, Mutation, Query, Resolver } from '@nestjs/graphql';
 import { Todo } from '@prisma/client';
 import { CreateTodoDto } from './dto/create-todo.dto';
 import { EditTodoDto } from './dto/edit-todo.dto';
