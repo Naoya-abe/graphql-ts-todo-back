@@ -13,9 +13,9 @@ datasource db {
 
 // Todoテーブル
 model Todo {
-  id        Int      @id @default(autoincrement())
+  id        String   @id
   title     String
-  details   String
+  detail    String?
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 }
